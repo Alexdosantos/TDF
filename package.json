@@ -1,0 +1,32 @@
+{
+  "name": "teste_dfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:dev": "tsx watch src/main.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "tsup": "^8.3.0",
+    "txc": "^0.0.1",
+    "typescript": "^5.6.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "prisma": "^5.20.0",
+    "tsx": "^4.19.1"
+  }
+}
