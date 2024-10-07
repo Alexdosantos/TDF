@@ -2,7 +2,7 @@
 
 Esta API fornece endpoints para gerenciar usuários e documentos. Abaixo estão as instruções para rodar o projeto localmente e a documentação das rotas disponíveis.
 
-## Como rodar o projeto localmente
+## Como rodar a API do projeto localmente
 
 1. Certifique-se de ter o Node.js instalado em sua máquina.
 2. Clone o repositório do projeto.
@@ -86,7 +86,8 @@ Esta API fornece endpoints para gerenciar usuários e documentos. Abaixo estão 
 - **Parâmetros do corpo:**
   ```json
   {
-    "name": "João Silva Atualizado"
+    "name": "João Silva Atualizado",
+    "email": "joao.silva@example.com"
   }
   ```
 - **Resposta de sucesso:**
@@ -94,7 +95,7 @@ Esta API fornece endpoints para gerenciar usuários e documentos. Abaixo estão 
   {
     "id": 1,
     "name": "João Silva Atualizado",
-    "email": "joao@example.com",
+    "email": "joao.silva@example.com",
     "documents": [
       {
         "id": 1,
@@ -244,12 +245,11 @@ Para rodar o projeto localmente, você precisará seguir os seguintes passos:
 
 ## Como rodar o projeto localmente
 
-1. Certifique-se de ter o Node.js instalado em sua máquina.
-2. Clone o repositório do projeto.
-3. Navegue até a pasta do frontend  `cd FrontEnd` e depois `cd app`.
-4. Execute `npm install` para instalar as dependências.
-5. Execute `npm run dev` para iniciar o servidor.
-6. A API estará disponível em `http://localhost:5173` (ou na porta que aparecer no terminal).
+
+1. Navegue até a pasta do frontend  `cd FrontEnd` e depois `cd app`.
+2. Execute `npm install` para instalar as dependências.
+3. Execute `npm run dev` para iniciar o servidor.
+4. A API estará disponível em `http://localhost:5173` (ou na porta que aparecer no terminal).
 
 ✅ Assim que conseguir rodar o frontend, você poderá acessar a página de login e criar um usuário para testar a aplicação.
 
